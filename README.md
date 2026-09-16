@@ -70,7 +70,7 @@ The design was synthesized and physically implemented using **OpenLane** with th
 
 ## RTL-to-GDSII Flow
 
-```text
+text
 RTL Design
     ↓
 RTL Simulation
