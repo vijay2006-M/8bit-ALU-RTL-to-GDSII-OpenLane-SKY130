@@ -172,5 +172,29 @@ CTS was not applicable to this ALU because it is a clockless combinational desig
 
 The final physical design was successfully generated as:
 
-```text
+
 alu_8bit.gds
+The final layout was viewed using KLayout.
+
+---
+
+## Project Files
+
+- RTL: `rtl/alu_8bit.v`
+- Testbench: `simulation/alu_8bit_tb.v`
+- OpenLane Configuration: `openlane/config.tcl`
+- Project Report: `8bit_ALU_Complete_Project_Report_Final.pdf`
+
+---
+
+## Conclusion
+
+The 8-bit ALU was successfully implemented through an open-source RTL-to-GDSII physical design flow using OpenLane and the SKY130 PDK.
+
+The flow covered RTL design, simulation, synthesis, floorplanning, power planning, placement, routing, DRC, LVS, and final GDSII generation.
+
+The final signoff results reported:
+
+```text
+DRC violations = 0
+LVS errors = 0
