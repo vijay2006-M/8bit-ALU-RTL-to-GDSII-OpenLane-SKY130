@@ -195,6 +195,13 @@ The flow covered RTL design, simulation, synthesis, floorplanning, power plannin
 
 The final signoff results reported:
 
-```text
+
 DRC violations = 0
 LVS errors = 0
+---
+
+## Author
+
+**Vijay M**
+
+**Karpagam College of Engineering**
