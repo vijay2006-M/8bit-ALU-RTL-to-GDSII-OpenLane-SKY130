@@ -92,3 +92,46 @@ DRC
 LVS
     ↓
 Final GDSII
+---
+
+## RTL Simulation
+
+The ALU RTL was functionally verified using a testbench covering all eight operations.
+
+### Simulation Waveform
+
+![RTL Simulation Waveform](waveform.png)
+
+---
+
+## Physical Design Results
+
+### Floorplan
+
+The design was floorplanned using OpenLane.
+
+![Floorplan](floorplan%20alu%208%20bit.png)
+
+### Power Planning / PDN
+
+Power distribution was implemented using the OpenLane PDN flow.
+
+![Power Plan](power%20plan.png)
+
+### Placement
+
+Standard cells were placed within the defined core area.
+
+![Placement](placement.png)
+
+---
+
+## Physical Verification
+
+### DRC
+
+The OpenLane signoff DRC report reported:
+
+```text
+DRC violations = 0
+
