@@ -132,7 +132,7 @@ Standard cells were placed within the defined core area.
 
 The OpenLane signoff DRC report reported:
 
-``text
+```text
 DRC violations = 0
 ### LVS
 
@@ -140,3 +140,37 @@ The LVS verification reported:
 
 ```text
 Total errors = 0
+No net, device, pin, or property mismatches were reported.
+
+---
+
+## Final Design Metrics
+
+| Parameter | Result |
+|---|---:|
+| Die Area | 0.005844 mm² |
+| Core Area | 3578.432 µm² |
+| Synthesized Cell Count | 174 |
+| Total Cells | 572 |
+| Wire Count | 293 |
+| Wire Length | 4442 |
+| Vias | 1380 |
+| Routing Violations | 0 |
+| DRC Violations | 0 |
+| LVS Errors | 0 |
+| Critical Path | 2.64 ns |
+
+---
+
+## CTS Note
+
+CTS was not applicable to this ALU because it is a clockless combinational design with no clock input or sequential elements.
+
+---
+
+## Final GDSII
+
+The final physical design was successfully generated as:
+
+```text
+alu_8bit.gds
