@@ -132,13 +132,13 @@ Standard cells were placed within the defined core area.
 
 The OpenLane signoff DRC report reported:
 
-```text
+
 DRC violations = 0
 ### LVS
 
 The LVS verification reported:
 
-```text
+
 Total errors = 0
 No net, device, pin, or property mismatches were reported.
 
