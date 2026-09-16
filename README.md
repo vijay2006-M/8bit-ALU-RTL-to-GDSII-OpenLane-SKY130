@@ -204,4 +204,3 @@ LVS errors = 0
 **Vijay M**
 
 **Karpagam College of Engineering**
-Complete ALU project README
